@@ -1,6 +1,6 @@
 #include <random>
 
-int getRandomNumber(int min, int max)
+int getRandom(int min, int max) const
 {
     random_device rd;
     mt19937 mt(rd());
